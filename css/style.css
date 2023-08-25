@@ -1,5 +1,7 @@
 /* HEADER STYLE */
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 header{
     width: 100%;
     background-color: #191A19;
@@ -81,6 +83,7 @@ a{
     position: relative;
     height: 936px;
     background-image: url("/imgs/backimg.png");
+    
 }
 
 .absolute-wraper{
@@ -114,10 +117,9 @@ a{
     border-radius: 15px;
 }
 
-.block-one img{
+/* .block-one img{
     /* border: 1px solid red; */
 
-}
 .block-two a{
     color: black;
 }
@@ -145,4 +147,262 @@ a{
 span{
     color: #FF7420;
 }
+
+/*featureds*/
+
+.section-Featured-Project{
+    background-color: #FF7420;
+    width: 100% ;
+    padding: 50px 60px;
+}
+
+.title-div{
+    font-weight: 600px;
+    font-size: 64px;
+    line-height: 96px;
+    font-family: 'Poppins', sans-serif;
+    /* width: 532px; */
+    display: inline-block;
+    vertical-align: middle;
+    
+
+}
+.projects-Menu-container {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.projects-Menu-container  a{
+    color: white;
+    display: inline-block;
+    
+    border: 3px dotted red;
+}
+
+.projects-Menu-container  a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+.imgs-div{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid firebrick;
+}
+
+.explore-div{
+    display: inline-block;
+    border: 5px solid darkblue;
+    
+    
+}
+
+.imgs-div div img{
+    border-radius: 5%;
+}
+
+
+
+/* form */
+
+.two-form-container{
+    display: flex;
+    column-gap: 41px;
+}
+.form-section{
+    background-color: #191A19;
+    color: white;
+}
+
+.client-comments-div h2{
+    color: #FF7420;
+    font-size: 28px;
+   font-weight: 600;
+   line-height: 42px;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   padding-top: 30px;
+
+}
+
+.client-comments-div p{
+    width: 1067px;
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   padding-top: 20px;
+   margin: 0 auto;
+}
+
+.client-comments-div h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.form-title{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 121px;
+}
+
+.first-form{
+    margin-left: 112px;
+    width: 963px;
+    background-color: #FF7420;
+    color: white;
+    padding: 42px 53px;
+    border-radius: 15px;
+
+}
+
+
+
+form > h3{
+    font-size: 24px;
+   font-weight: 500;
+   line-height: 36px;
+   font-family: 'Poppins', sans-serif;
+   margin-bottom: 24px;
+}
+
+form > p{
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+   font-family: 'Poppins', sans-serif;
+   margin-bottom: 18px;
+}
+
+.input-field{
+    width: 419px;
+    height: 76px;
+    color: #191A1980;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin-right: 7px;
+    margin-bottom: 18px;
+}
+
+
+#details{
+    width: 856px;
+    height: 148px;
+}
+
+
+
+.input-field::placeholder {
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+   font-family: 'Poppins', sans-serif;
+   color: rgba(25, 26, 25, 0.5);
+   padding-left: 65px;
+}
+
+
+#service{
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+   font-family: 'Poppins', sans-serif;
+   padding-left: 65px;
+   
+}
+
+.submit-btn{
+    width: 856px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #191A19;
+    color: white ;
+    height: 76px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+   text-align: center;
+}
+
+/* contact-part */
+
+.contact-part{
+    width: 499px;
+    padding: 42px 58px 46px 57px ;
+    background-color: #FF7420;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.contact-part h3{
+    font-size: 24px;
+   font-weight: 500;
+   line-height: 36px;
+   margin-bottom: 24px ;
+   margin-top: 24px;
+
+}
+
+.contact-part-child-div h4{
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+}
+
+.contact-part-child-div p{
+    font-size: 16px;
+   font-weight: 300;
+   line-height: 34px;
+
+}
+
+.contact-part-child-div address{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.questions-p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.margin-bottom{
+    margin-bottom: 24px;
+}
+
+.contact-us-div{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: #191A19;
+    border-radius: 15px;
+    width: 384px;
+    height: 76px;
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
